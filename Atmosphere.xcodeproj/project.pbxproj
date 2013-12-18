@@ -114,12 +114,11 @@
 		658E90DA18622656001023A5 /* Atmosphere */ = {
 			isa = PBXGroup;
 			children = (
-				658E90E318622656001023A5 /* AMEAppDelegate.h */,
+				658E910C186227B6001023A5 /* Controllers */,
+				658E910D186227DB001023A5 /* Views */,
+				658E910E186227E3001023A5 /* Models */,
 				658E90E418622656001023A5 /* AMEAppDelegate.m */,
-				658E90E618622656001023A5 /* Main_iPhone.storyboard */,
-				658E90E918622656001023A5 /* Main_iPad.storyboard */,
-				658E90EC18622656001023A5 /* AMEViewController.h */,
-				658E90ED18622656001023A5 /* AMEViewController.m */,
+				658E90E318622656001023A5 /* AMEAppDelegate.h */,
 				658E90EF18622656001023A5 /* Images.xcassets */,
 				658E90DB18622656001023A5 /* Supporting Files */,
 			);
@@ -153,6 +152,31 @@
 				658E90FF18622656001023A5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		658E910C186227B6001023A5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				658E90EC18622656001023A5 /* AMEViewController.h */,
+				658E90ED18622656001023A5 /* AMEViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		658E910D186227DB001023A5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				658E90E618622656001023A5 /* Main_iPhone.storyboard */,
+				658E90E918622656001023A5 /* Main_iPad.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		658E910E186227E3001023A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
